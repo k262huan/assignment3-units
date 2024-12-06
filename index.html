@@ -22,7 +22,6 @@
     padding: 0;
     overflow: hidden;
     background-image: linear-gradient(to right, #92a8cf, #f6c8c9);
-    position: absolute;
     width: 100%;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -43,21 +42,12 @@
   }
   
   h1 {
-    position: absolute;
-    top: 55px;
+    margin-top: 80px;
     width: 100%;
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  #svtlogo img {
-    position: absolute;
-    top: -82px;
-    left: -1px;
-    width: 200px;
-    height: 100px;
   }
   
   #banner {
@@ -67,6 +57,79 @@
     width: 100%;
     height: 200px;
     top: 64px;
+  }
+  
+  .center {
+    text-align: center;
+    margin-top: 200px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 1px;
+    font-style: normal;
+    background-color: #91a8d1;
+    color: white;
+  }
+  
+  .container1 {
+    background-color: blue;
+    width: 450px;
+    height: 450px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 450px;
+    font-size: 20px;
+  }
+  
+  .jeonghan, .joshua, .woozi, .dk, .seungkwan, .container1 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  .jeonghan:hover img, .joshua:hover img, .woozi:hover img, .dk:hover img, .seungkwan:hover img {
+    opacity: 0.3;
+    transition: .5s ease;
+  }
+  
+  .text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    display: none;
+    font-size: 20px;
+    margin-top: -225px;
+  }
+  
+  .jeonghan:hover .text, .joshua:hover .text, .woozi:hover .text, .dk:hover .text, .seungkwan:hover .text {
+    display: block;
+  }
+  
+  .jeonghan:hover .text {
+    margin-left: 180px;
+  }
+  
+  .joshua:hover .text {
+    margin-left: 190px;
+  }
+  
+  .woozi:hover .text {
+    margin-left: 200px;
+  }
+  
+  .dk:hover .text {
+    margin-left: 210px;
+  }
+  
+  .seungkwan:hover .text {
+    margin-left: 165px;
+  }
+  
+  #svtlogo img {
+    position: absolute;
+    top: -82px;
+    left: -1px;
+    width: 200px;
+    height: 100px;
   }
 </style>
 </head>
@@ -87,5 +150,40 @@
   <img src="svtlogo.png" alt="seventeen's logo with the words seventeen next to it">
 </div>
 </div>
+
+<div class="center">
+  <h2>Vocal Unit</h2>
+</div>
+
+<!-- vocal unit -->
+<div class="jeonghan">
+  <img src="jeonghan.jpg" alt="jeonghan from seventeen" style="width:450px;height:450px;">
+    <div class="text">Jeonghan</div>
+</div>
+  
+<div class="joshua">
+  <img src="joshua.jpg" alt="joshua from seventeen" style="width:450px;height:450px;">
+    <div class="text">Joshua</div>
+</div>
+  
+<div class="woozi">
+  <img src="woozi.jpg" alt="woozi from seventeen" style="width:450px;height:450px;">
+    <div class="text">Woozi</div>
+</div>
+  
+<div class="dk">
+  <img src="dk.jpg" alt="woozi from seventeen" style="width:450px;height:450px;">
+    <div class="text">DK</div>
+</div>
+  
+<div class="seungkwan">
+  <img src="seungkwan.jpg" alt="woozi from seventeen" style="width:450px;height:450px;">
+    <div class="text">Seungkwan</div>
+</div>
+  
+<div class="container1">
+  Vocal Unit
+  </div>
+  
 </body>
 </html>
